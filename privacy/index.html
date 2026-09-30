@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー | ホート（HOTE）</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0;
+    padding: 24px 20px 48px;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #1f2328;
+    background: #ffffff;
+    overflow-wrap: anywhere;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 1.5rem; line-height: 1.4; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; line-height: 1.5; margin: 2rem 0 0.5rem; padding-top: 0.5rem; border-top: 1px solid #d0d7de; }
+  p, ul, ol { margin: 0.5rem 0; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: 0.25rem 0; }
+  a { color: #0b5cad; }
+  .meta { color: #57606a; font-size: 0.9rem; margin: 0 0 1.5rem; }
+  .nav { margin-top: 2.5rem; font-size: 0.9rem; }
+  .table-wrap { overflow-x: auto; margin: 0.75rem 0; }
+  table { border-collapse: collapse; width: 100%; min-width: 20rem; font-size: 0.95rem; line-height: 1.6; }
+  th, td { border: 1px solid #d0d7de; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f6f8fa; font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6edf3; background: #0d1117; }
+    h2 { border-top-color: #30363d; }
+    a { color: #58a6ff; }
+    .meta { color: #9198a1; }
+    th, td { border-color: #30363d; }
+    th { background: #161b22; }
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>ホート（HOTE）プライバシーポリシー</h1>
+<p class="meta">制定日：2026年9月30日<br>最終更新日：2026年9月30日<br>運営者：hitomikazuma</p>
+
+<p>運営者 hitomikazuma（以下「運営者」）は、モバイルアプリ「ホート」（英語表記：HOTE。以下「本アプリ」）において、ユーザーの情報を次のとおり取り扱います。本アプリは、個人が自分の宿泊を記録するための iOS / Android アプリです。</p>
+
+<h2>1. 取得する情報</h2>
+<p>本アプリは、次の情報を取得・保存します。</p>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>区分</th><th>内容</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>アカウント情報</td><td>ログインに使うメールアドレス</td></tr>
+    <tr><td>宿泊記録</td><td>ホテル名、チェックイン日、チェックアウト日、料金（任意。通貨コードの初期値は JPY）、5段階評価、メモ（任意）、場所メモ（任意の文字列）</td></tr>
+    <tr><td>写真</td><td>ユーザーが宿泊記録に添付した写真。リサイズした JPEG として保存します。写真のメタデータとして、撮影日時を保存する場合があります。</td></tr>
+    <tr><td>購入に関する情報</td><td>プレミアム（月額サブスクリプション）の購入状態。決済は Apple の App Store が処理します。</td></tr>
+  </tbody>
+</table>
+</div>
+<p>本アプリには、広告 SDK およびアクセス解析ツールは組み込まれていません。</p>
+
+<h2>2. 利用目的</h2>
+<p>取得した情報は、次の目的で利用します。</p>
+<ul>
+  <li>ログインの認証（メールアドレス宛への6桁コードの送信）とアカウントの管理</li>
+  <li>宿泊記録・写真の保存、表示、更新、削除など、本アプリの機能の提供</li>
+  <li>プレミアムの購入状態の判定と、写真の枚数の制御</li>
+  <li>お問い合わせへの対応</li>
+</ul>
+<p>上記の目的以外には利用しません。</p>
+
+<h2>3. 委託先・外部サービス</h2>
+<p>運営者は、本アプリの提供のため、次の外部サービスを利用します。各サービスには、それぞれの目的に必要な範囲で情報が渡されます。</p>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>サービス</th><th>用途</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Supabase</td><td>認証、データベース（宿泊記録・写真メタデータ）、写真の保存</td></tr>
+    <tr><td>Resend</td><td>ログイン用の6桁コードを記載したメールの送信</td></tr>
+    <tr><td>RevenueCat</td><td>プレミアムの購入状態の判定</td></tr>
+    <tr><td>Apple</td><td>App Store の月額サブスクリプションの決済</td></tr>
+  </tbody>
+</table>
+</div>
+<p>これらのサービスにおける情報の取り扱いは、各事業者の定めるプライバシーポリシー等にも従います。</p>
+
+<h2>4. 外部に公開しないこと</h2>
+<ul>
+  <li>本アプリの v1.0 では、宿泊記録、写真、場所メモを、他のユーザーや第三者に公開・共有しません。</li>
+  <li>宿泊記録と写真は、ユーザー本人のみが閲覧・編集できるよう管理します。</li>
+  <li>前項の委託先への提供と、法令に基づく開示の求めがある場合を除き、ユーザーの個人情報を第三者に提供しません。</li>
+</ul>
+
+<h2>5. 写真の EXIF と場所メモの扱い</h2>
+<ul>
+  <li>写真に含まれる撮影日時や GPS などの情報（EXIF）は、ユーザーの端末上で読み取ります。</li>
+  <li>読み取った撮影日時は、チェックイン日の入力候補として画面に表示します。</li>
+  <li>写真に GPS の位置情報が含まれている場合、「緯度, 経度」の文字列を、場所メモの入力候補として画面に表示します。ユーザーがその候補を適用したときだけ、場所メモとして保存します。</li>
+  <li>緯度・経度を保存するための専用の項目はありません。保存されるのは、ユーザーが自分で入力した場所メモ、または候補を適用して保存した場所メモの文字列です。</li>
+  <li>場所メモの文字列を住所などへ変換すること（逆ジオコーディング）は行いません。</li>
+  <li>写真はリサイズした JPEG に変換してから保存します。保存された写真に元の EXIF が残るかどうかは、断定できません。位置情報を残したくない場合は、添付前に、ご自身の端末で写真の位置情報を削除してください。</li>
+</ul>
+
+<h2>6. 保持と削除</h2>
+<ul>
+  <li>宿泊記録と写真は、ユーザーが削除するか、アカウントを削除するまで保存します。</li>
+  <li>ユーザーは、本アプリの設定画面から、いつでもアカウントを削除できます。アカウントを削除すると、本人の宿泊記録、写真メタデータ、保存された写真、ログイン用のアカウントを、直ちに物理削除します。</li>
+  <li>削除したデータは、復旧できません。</li>
+  <li>本アプリ内のアカウント削除では、App Store のサブスクリプションの解約や返金は行われません。解約と返金は、お使いの端末の App Store のサブスクリプション管理から行ってください。</li>
+</ul>
+
+<h2>7. 開示・訂正・削除のご請求</h2>
+<p>ユーザーは、宿泊記録や写真を、本アプリ内でいつでも確認・訂正・削除できます。アカウントの削除も本アプリ内で行えます。そのほか、個人情報についてのご希望やご質問は、下記の連絡先までご連絡ください。</p>
+
+<h2>8. 本ポリシーの変更</h2>
+<p>運営者は、必要に応じて本ポリシーを変更することがあります。変更後の内容は、本ページに掲載した時点から効力を生じます。</p>
+
+<h2>9. お問い合わせ先</h2>
+<p>本ポリシーおよび個人情報の取り扱いに関するお問い合わせは、次の連絡先までお願いします。</p>
+<p>運営者：hitomikazuma<br>メール：<a href="mailto:hitomi@bankto.co.jp">hitomi@bankto.co.jp</a></p>
+
+<p class="nav">制定日：2026年9月30日<br><a href="../terms/">利用規約</a></p>
+</main>
+</body>
+</html>
